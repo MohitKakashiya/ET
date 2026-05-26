@@ -386,20 +386,21 @@ export const modalStyles = {
 // In src/assets/dummyStyles.js - add these styles
 export const loginStyles = {
   pageContainer:
-    "min-h-screen flex items-center justify-center p-4 bg-gradient-to-br from-indigo-50 via-white to-purple-100",
+    "min-h-screen flex items-center justify-center p-4 bg-gray-100",
 
   cardContainer:
-    "w-full max-w-md bg-white rounded-3xl shadow-2xl overflow-hidden border border-indigo-100",
+    "w-full max-w-md bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-200",
 
   header:
-    "bg-gradient-to-br from-indigo-600 via-purple-600 to-violet-700 p-7 text-center",
+    "bg-gray-900 p-7 text-center",
 
+  // Changed square logo into circular logo
   avatar:
-    "w-20 h-20 mx-auto rounded-2xl bg-white/20 flex items-center justify-center mb-4 shadow-lg border border-white/30",
+    "w-20 h-20 mx-auto rounded-full bg-white/10 flex items-center justify-center mb-4 shadow-md border border-white/20",
 
   headerTitle: "text-3xl font-bold text-white",
 
-  headerSubtitle: "text-indigo-100 mt-2 text-sm",
+  headerSubtitle: "text-gray-300 mt-2 text-sm",
 
   formContainer: "p-8",
 
@@ -416,35 +417,36 @@ export const loginStyles = {
   inputContainer: "relative",
 
   inputIcon:
-    "absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-indigo-400",
+    "absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-gray-400",
 
   input:
-    "w-full pl-11 pr-4 py-3 bg-gray-50 border border-gray-200 rounded-2xl text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-300 focus:border-indigo-500 transition-all",
+    "w-full pl-11 pr-4 py-3 bg-gray-50 border border-gray-300 rounded-2xl text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-gray-500 transition-all",
 
   passwordInput:
-    "w-full pl-11 pr-11 py-3 bg-gray-50 border border-gray-200 rounded-2xl text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-300 focus:border-indigo-500 transition-all",
+    "w-full pl-11 pr-11 py-3 bg-gray-50 border border-gray-300 rounded-2xl text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-gray-500 transition-all",
 
   passwordToggle:
-    "absolute inset-y-0 right-0 pr-4 flex items-center text-gray-400 hover:text-indigo-600 transition-colors",
+    "absolute inset-y-0 right-0 pr-4 flex items-center text-gray-400 hover:text-gray-700 transition-colors",
 
   checkboxContainer: "mb-6 flex items-center",
 
   checkbox:
-    "w-4 h-4 text-indigo-600 border-gray-300 rounded focus:ring-indigo-500",
+    "w-4 h-4 text-gray-800 border-gray-300 rounded focus:ring-gray-500",
 
   checkboxLabel: "ml-2 block text-sm text-gray-600",
 
+  // Simpler button colors
   button:
-  "w-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-3 rounded-2xl font-semibold shadow-lg hover:shadow-xl hover:from-indigo-700 hover:to-purple-700 transition-all flex items-center justify-center",
+    "w-full bg-gray-900 text-white py-3 rounded-2xl font-semibold shadow-md hover:bg-black transition-all flex items-center justify-center",
 
-  buttonDisabled: "opacity-70 cursor-not-allowed hover:scale-100",
+  buttonDisabled: "opacity-70 cursor-not-allowed",
 
   signUpContainer: "mt-7 text-center",
 
   signUpText: "text-gray-600 text-sm",
 
   signUpLink:
-    "font-semibold text-indigo-600 hover:text-purple-600 hover:underline",
+    "font-semibold text-gray-800 hover:text-black hover:underline",
 
   spinner: "animate-spin -ml-1 mr-3 h-5 w-5 text-white",
 };
@@ -490,23 +492,24 @@ export const navbarStyles = {
 // In src/assets/dummyStyles.js - add these styles
 export const signupStyles = {
   pageContainer:
-    "min-h-screen flex items-center justify-center p-4 bg-gradient-to-br from-indigo-50 via-white to-purple-100",
+    "min-h-screen flex items-center justify-center p-4 bg-gray-100",
 
   cardContainer:
-    "w-full max-w-md bg-white rounded-3xl shadow-2xl overflow-hidden border border-indigo-100",
+    "w-full max-w-md bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-200",
 
   header:
-    "bg-gradient-to-br from-indigo-600 via-purple-600 to-violet-700 p-7 text-center relative",
+    "bg-gray-900 p-7 text-center relative",
 
+  // Circular logo
   avatar:
-    "w-20 h-20 mx-auto rounded-2xl bg-white/20 flex items-center justify-center mb-4 shadow-lg border border-white/30",
+    "w-20 h-20 mx-auto rounded-full bg-white/10 flex items-center justify-center mb-4 shadow-md border border-white/20",
 
   headerTitle: "text-3xl font-bold text-white",
 
-  headerSubtitle: "text-indigo-100 mt-2 text-sm",
+  headerSubtitle: "text-gray-300 mt-2 text-sm",
 
   backButton:
-    "absolute top-4 left-4 p-2 text-white rounded-xl hover:bg-white/15 transition-all",
+    "absolute top-4 left-4 p-2 text-white rounded-xl hover:bg-white/10 transition-all",
 
   formContainer: "p-8",
 
@@ -520,34 +523,36 @@ export const signupStyles = {
   inputContainer: "relative",
 
   inputIcon:
-    "absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-indigo-400",
+    "absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-gray-400",
 
   input:
-    "w-full pl-11 pr-4 py-3 bg-gray-50 border rounded-2xl text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-300 focus:border-indigo-500 transition-all",
+    "w-full pl-11 pr-4 py-3 bg-gray-50 border border-gray-300 rounded-2xl text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-gray-500 transition-all",
 
   passwordInput:
-    "w-full pl-11 pr-11 py-3 bg-gray-50 border rounded-2xl text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-300 focus:border-indigo-500 transition-all",
+    "w-full pl-11 pr-11 py-3 bg-gray-50 border border-gray-300 rounded-2xl text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-gray-500 transition-all",
 
   passwordToggle:
-    "absolute inset-y-0 right-0 pr-4 flex items-center text-gray-400 hover:text-indigo-600 transition-colors",
+    "absolute inset-y-0 right-0 pr-4 flex items-center text-gray-400 hover:text-gray-700 transition-colors",
 
   checkboxContainer: "mb-6 flex items-center",
 
   checkbox:
-    "w-4 h-4 text-indigo-600 border-gray-300 rounded focus:ring-indigo-500",
+    "w-4 h-4 text-gray-800 border-gray-300 rounded focus:ring-gray-500",
 
   checkboxLabel: "ml-2 block text-sm text-gray-600",
 
- button:
-  "w-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-3 rounded-2xl font-semibold shadow-lg hover:shadow-xl hover:from-indigo-700 hover:to-purple-700 transition-all flex items-center justify-center",
+  // Simpler button
+  button:
+    "w-full bg-gray-900 text-white py-3 rounded-2xl font-semibold shadow-md hover:bg-black transition-all flex items-center justify-center",
 
-  buttonDisabled: "opacity-70 cursor-not-allowed hover:scale-100",
+  buttonDisabled: "opacity-70 cursor-not-allowed",
 
   signInContainer: "mt-7 text-center",
 
   signInText: "text-gray-600 text-sm",
 
-  signInLink: "font-semibold text-indigo-600 hover:text-purple-600 hover:underline",
+  signInLink:
+    "font-semibold text-gray-800 hover:text-black hover:underline",
 
   spinner: "animate-spin -ml-1 mr-3 h-5 w-5 text-white",
 };
