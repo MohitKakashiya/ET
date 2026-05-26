@@ -5,7 +5,7 @@ import { signupStyles as ss } from "../assets/dummyStyles.js";
 import { ArrowLeft, Eye, EyeOff, Lock, Mail, User } from "lucide-react";
 import axios from "axios";
 
-const Signup = ({ API_URL = "http://localhost:4000", onSignup }) => {
+const Signup = ({ API_URL = "https://myrevenue-backend.onrender.com", onSignup }) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
