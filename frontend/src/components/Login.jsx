@@ -4,7 +4,7 @@ import { loginStyles as ls } from "../assets/dummyStyles.js";
 import { Eye, EyeOff, Lock, Mail, User } from "lucide-react";
 import axios from "axios";
 
-const Login = ({ onLogin, API_URL = "http://localhost:4000" }) => {
+const Login = ({ onLogin, API_URL = "https://myrevenue-backend.onrender.com" }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
