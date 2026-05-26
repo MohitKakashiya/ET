@@ -6,7 +6,7 @@ import { Eye, EyeOff, Lock, User, X } from "lucide-react";
 import axios from "axios";
 import { toast, ToastContainer } from "react-toastify";
 
-const BASE_URL = "http://localhost:4000/api";
+const BASE_URL = "https://myrevenue-backend.onrender.com/api";
 
 Modal.setAppElement("#root");
 
