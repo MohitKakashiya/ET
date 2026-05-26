@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { navbarStyles } from "../assets/dummyStyles";
-import img1 from "../assets/logo.png";
+import img1 from "../assets/logo1.png";
 import { useNavigate } from "react-router-dom";
 import { ChevronDown, LogOut, User } from "lucide-react";
 import axios from "axios";
@@ -84,7 +84,7 @@ const Navbar = ({ user: propUser, onLogout }) => {
           <div className={navbarStyles.logoImage}>
             <img src={img1} alt="Logo" />
           </div>
-          <span className={navbarStyles.logoText}>Expense Tracker</span>
+          <span className={navbarStyles.logoText}>MyRevenue</span>
         </div>
 
         {user && (
