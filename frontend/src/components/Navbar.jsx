@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { ChevronDown, LogOut, User } from "lucide-react";
 import axios from "axios";
 
-const BASE_URL = "https://myrevenue-backend.onrender.com/api";
+const BASE_URL = "http://localhost:4000/api";
 
 const Navbar = ({ user: propUser, onLogout }) => {
   const navigate = useNavigate();
